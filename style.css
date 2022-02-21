@@ -11,7 +11,7 @@
 .button{
     background-color:salmon ;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -25,7 +25,7 @@ section{
 }
 .link-button{
     text-decoration: none;
-    background-color: orange ;
+  background-color: salmon;
     font-weight: 700;
     color: white;
     padding: 10px 40px;
@@ -39,4 +39,34 @@ section{
     background-image: url('./developer-portfolio-master/images/dream-bg.png');
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-item{
+    
+    box-shadow: 10px 10px 50px gray;
+    margin-left: 4%;
+    margin-right: 4%;
+    
+}
+.second-part{
+padding-left: 3%;
+}
+.first-part{
+    padding-left: 2%;
+}
+.experience-area{
+background-image: url(./developer-portfolio-master/images/exp-bg.png);
+background-repeat: no-repeat;
+}
+#full-dev{
+    border-left: 10px solid;
+    border-image:linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#baby-dev{
+    border-left: 10px solid;
+ border-image: linear-gradient(blue, cyan);
+ border-image-slice: 1;
+}
+footer p {
+    text-align: center;
 }
