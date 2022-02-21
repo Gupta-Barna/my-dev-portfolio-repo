@@ -13,12 +13,14 @@
 }
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width{
-   width: 60%; 
+   width: 60%;
+ 
 }
 .half-width img{
-    width: 40%;
+    width: 50%;
     padding-left: 2%;
 }
 .link-button{
@@ -33,4 +35,8 @@ section{
    background-image: url("./developer-portfolio-master/images/top-banner.png");
    background-repeat: no-repeat;
 }
-
+.dream-big{
+    background-image: url('./developer-portfolio-master/images/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
